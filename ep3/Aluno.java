@@ -14,14 +14,14 @@ public class Aluno implements Comparable<Aluno>{
                 return idade;
         }
 	public int compareTo(Aluno outroAluno) {
-                        if (this.idade > outroAluno.getIdade()) {
-                                return 1;
-                        }
-                        if (this.idade < outroAluno.getIdade()) {
-                                return -1;
-                        }
-                        return 0;
-                }
+        if (this.idade < outroAluno.getIdade()) {
+            return -1;
+        }
+        if (this.idade > outroAluno.getIdade()) {
+            return 1;
+        }
+        return 0;
+    }
 
 
 }
