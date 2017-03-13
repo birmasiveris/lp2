@@ -23,7 +23,7 @@ public class Principal{
 
 		Aluno e = new Aluno();
                 e.setNome("aluno5");
-                e.setIdade(10);
+                e.setIdade(14);
 
 		ArrayList<Aluno> arreio = new ArrayList<Aluno> ();
 		arreio.add(a);
@@ -33,7 +33,9 @@ public class Principal{
 		arreio.add(e);
 
 		Collections.sort(arreio);
-		System.out.println(arreio);
+		for (int i=0; i<5; i++){
+			System.out.println(arreio.get(i).getNome() + " " + arreio.get(i).getIdade());
+		}
 
 
 	}
