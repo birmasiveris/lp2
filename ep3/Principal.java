@@ -25,6 +25,22 @@ public class Principal{
                 e.setNome("aluno5");
                 e.setIdade(14);
 
+		Disciplina f = new Disciplina();
+		f.setNome("WEB");
+		f.setProfessor("Marcelo");
+
+		Disciplina g = new Disciplina();
+		g.setNome("LP2");
+		g.setProfessor("Herbert");
+
+		Nota h = new Nota();
+		h.setValor(10);
+		h.setAluno(a);
+		h.setDisciplina(f);
+
+		ArrayList<Nota> arrei = new ArrayLista<Nota> ();
+		arrei.add(h);
+
 		ArrayList<Aluno> arreio = new ArrayList<Aluno> ();
 		arreio.add(a);
 		arreio.add(b);
