@@ -1,0 +1,23 @@
+class Singleton{
+	private static Singleton a;
+	protected int x;
+	protected int y;
+	protected int z;
+	private Singleton(){
+		
+	}
+	public static Singleton getInstancia(){
+		if (a==null)
+			a = new Singleton();
+		return a;
+	}
+	public String criarX(){
+		return new String("X #"+ x);
+	}
+	public String criarY(){ 
+                return new String("Y #"+ y);
+        }
+	public String criarZ(){ 
+                return new String("Z #"+ z);
+        }
+}
