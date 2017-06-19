@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Tela1Activity" />
+        <activity android:name=".Tela2Activity"></activity>
     </application>
 
 </manifest>
