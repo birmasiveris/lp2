@@ -2,7 +2,7 @@ package com.example.alunos.fakeuser;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.icu.text.SimpleDateFormat;
+
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
